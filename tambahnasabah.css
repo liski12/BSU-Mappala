@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cce1ff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    background-color: #d4f5c7;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #4a90e2;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin-right: 18px;
+}
+
+.registration-form input {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: black !important;
+}
+
+.save-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+    margin-left: 80px;
+    align-items: center;
+}
+
+.save-button:hover {
+    background-color: #45a049;
+}
+
+.view-button {
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 65%;
+    margin-left: 55px;
+    align-items: center;
+}
+
+.view-button:hover {
+    background-color: #286090;
+}
+
+

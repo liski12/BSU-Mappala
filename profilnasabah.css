@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cce1ff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+header {
+    background-color: #7aa1d2;
+    color: white;
+    padding: 4px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+header .back {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #d5e8d4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .profile h2 {
+    color: #5c8bc7; /* Ubah ini sesuai warna yang diinginkan, contoh: #2c3e50 */
+    font-family: 'Concert One', cursive; /* Ganti dengan jenis font yang diinginkan */
+    font-size: 30px; /* Sesuaikan ukuran font */
+    font-weight: bold; /* Tambahkan gaya tebal jika diperlukan */
+    margin-bottom: 10px; /* Sesuaikan margin bawah */
+}
+
+
+.sidebar nav button {
+    background-color: #7da2d9;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 25px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+}
+
+.sidebar nav button:hover {
+    background-color: #5c8bc7;
+}
+
+.content {
+    text-align: center;
+    flex: 1;
+    padding: 02px 50px; /* Kurangi padding atas untuk mendekatkan konten */
+    background-color: #e8f1fa;
+}
+
+.content h3 {
+    font-family: 'Concert One', cursive; /* Ganti dengan font yang diinginkan */
+    font-size: 28px; /* Sesuaikan ukuran font */
+    font-weight: bold; /* Tambahkan gaya tebal jika diperlukan */
+    color: #5c8bc7; /* Ubah warna sesuai kebutuhan */
+    text-align: center; /* Pastikan teks tetap rata tengah */
+    margin-bottom: 20px; /* Sesuaikan jarak bawah */
+}
+
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Pusatkan semua elemen secara horizontal */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.profile-form label {
+    font-size: 14px;
+    color: #34495e;
+    margin-bottom: 5px;
+    text-align: left; /* Label tetap sejajar kiri dalam input */
+    width: 100%; /* Ambil seluruh lebar form */
+    max-width: 300px; /* Batasi lebar label */
+}
+
+.profile-form input {
+    width: 100%;
+    max-width: 300px; /* Sesuaikan input dengan form */
+    height: 35px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #34495e;
+    box-sizing: border-box;
+}
+
+.profile-form button {
+    display: block;
+    margin: 20px auto 0;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profile-form button:hover {
+    background-color: #c0392b;
+}
